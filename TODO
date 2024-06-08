@@ -1,9 +1,0 @@
-todo:
-- rewrite P86_{Im,Ex}portFile to be cleaner
-- implement p86_struct P86_ImportData
-- implement boolean P86_ExportData
-- stdint.h wrapper: use if available, fallback header with typedefs if fully C89-compliant (== no stdint.h)
-- CMake code for ADPCM library (just ADPCM-B part for encoding/decoding PPC sample data)
-
-maybe:
-- make file loading code 16-bit real mode compatible (reference files / file offsets instead of loading everything?)
