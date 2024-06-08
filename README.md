@@ -9,19 +9,29 @@ I started programming less than a month ago, so apologies for the messy code!
 ## Features
 
 99% byte-perfect functionality with OPN
+
 Works with nearly every OPN song, even ones created using earlier versions of MC.EXE
+
 Automatically adds length commands for better readability
+
 Automatically adds octave commands and octave signs (> and <)
+
 Prints #DT2Flag On if DT2 is used.
+
 Prints #Option flags (/v and /c are automatically added, /n is omitted)
+
 Can bulk-convert songs, so feel free to drag-and-drop an entire OST.
 
 ## Bugs
 
 Might work well with OPM (X68000)
+
 Instruments won't work with OPL
+
 Will NOT work with FM-TOWNS
+
 Ties get regrouped when re-compiled (not much can be done about that, it's a compiler quirk)
+
 Extra Zenlen command might get spit out on the G channel when re-compiling
 
 
