@@ -37,7 +37,7 @@ unsigned char pmdReadSequenceFM (FILE* pmdFile) {
     "i"
   };
   
-  const char*	rhythmSourceSamplePan[] = {"l","m","r"};
+  const char*	rhythmSourceSamplePan[] = {"r","l","m"};
 
   //printf ("0x%04X: ", (unsigned short) ftell (pmdFile));
 
